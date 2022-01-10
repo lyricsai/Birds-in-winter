@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Console</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="wrapper">
+        <section class="game">
+            <div class="game__container" draggable="false">
+                <div class="game__snow"></div>
+                <div class="game__house_big">
+                    <img src="./birdhouse__2.png" alt="birdhouse" id="game__birdhouse" draggable="false">
+                </div>
+                <div class="game__house_little" draggable="false"></div>
+                <div id="game__inbirdhouse"></div>
+            </div>
+        </section>
+        <section class="instructions">
+            <label>Type in number: <input type="number" min="1" max="100" id="birds__number"></label>
+            <button id="show">Show birds</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
